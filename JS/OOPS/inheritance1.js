@@ -7,23 +7,24 @@ class Person {
       this.last_name = ln;
     }
 
+//getLastName is a method
     getLastName(){
       return this.last_name + " is the last name " 
   }
 
+ //getLastName is a method 
   getFullName(){
     return this.first_name + " " + this.last_name + " is the full name " 
 }
 
 }
 
-
-
+//Inheriting from Person
 class Student extends Person {
 
     }
 
-
+//Inheriting from Student
 class HighSchoolStudent extends Student {
 
 }
