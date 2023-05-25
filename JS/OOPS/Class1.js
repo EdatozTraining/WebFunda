@@ -20,3 +20,5 @@ class Fruit{
 
  
   console.log(p1.getInfo())
+
+  
